@@ -1,0 +1,46 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}.video__wrap{
+ position: relative;
+
+ height: 70vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}.video__wrap video{
+   
+    color: aliceblue;
+   width: 100%;
+   margin-top: 300px;
+  
+   
+   
+}.video__wrap div{
+   
+    position: absolute;
+  margin-top: 400px;
+
+}.video__wrap h1{
+        background-image: linear-gradient(to top,rgb(8, 8, 8) 0%,rgb(250, 8, 218) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:transparent;
+      
+      
+}.video__wrap h2{
+    background-image: linear-gradient(to top,rgb(9, 9, 9) 0%,rgb(243, 4, 179) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+   
+  
+}
+.video__wrap p{
+    font-size: 30px;
+    color: rgb(10, 10, 10);
+}@media screen and (min-width: 480px) {
+   
+    
+}
