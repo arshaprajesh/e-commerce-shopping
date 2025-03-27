@@ -31,12 +31,10 @@ function App() {
   
   
   ]);
-    const handleAddToCart = (item) => {
-      setItem([...item, item]);
-      alert(`${item.name} added to cart!`);
-    };
+   
     
-  const[visible,setVisible]= useState(false);
+const[visible,setVisible]= useState(false);
+
  const hidingCharacter=()=> {
   if(visible){
     setVisible(false);
@@ -59,9 +57,7 @@ function App() {
         <button onClick={hidingCharacter}>Show All</button>
        </div>
       {visible ? (
-        <AllItem item={item} onAddToCart={handleAddToCart}/>
-      
-      
+        <AllItem item={item} />
        ):(
         <div className="container">
           <p></p>
